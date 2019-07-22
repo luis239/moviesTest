@@ -1,4 +1,15 @@
 <resources>
-    <string name="app_name">Beers</string>
-    <string name="accion_aceptar">Aceptar</string>
+    <string name="app_name">Movies</string>
+    <string name="yes_action">Yes, I do</string>
+    <string name="no_action">No, I don\'t</string>
+    <string name="title_activity_main">MainActivity</string>
+    <string name="navigation_drawer_open">Open navigation drawer</string>
+    <string name="navigation_drawer_close">Close navigation drawer</string>
+    <string name="nav_header_title">Android Studio</string>
+    <string name="nav_header_subtitle">android.studio@android.com</string>
+    <string name="nav_header_desc">Navigation header</string>
+    <string name="action_settings">Settings</string>
+
+    <string name="menu_watch_list">Watch List</string>
+    <string name="menu_movies">Movies in theater now</string>
 </resources>

@@ -4,19 +4,19 @@ import android.content.Context
 import androidx.room.Database
 import androidx.room.Room
 import androidx.room.RoomDatabase
-import com.example.luis.cache.beers.BeersEntity
-import com.example.luis.cache.beers.dao.BeersDao
+import com.example.luis.cache.movies.MoviesEntity
+import com.example.luis.cache.movies.dao.MoviesDao
 import javax.inject.Inject
 
 @Database(
     version = 1,
-    entities = [BeersEntity::class],
+    entities = [MoviesEntity::class],
             exportSchema = false)
 
 abstract class AppDb @Inject constructor() : RoomDatabase(){
 
 
-    abstract fun beerDao(): BeersDao
+    abstract fun moviesDao(): MoviesDao
 
     companion object {
 

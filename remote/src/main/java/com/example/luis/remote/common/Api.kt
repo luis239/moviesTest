@@ -1,7 +1,6 @@
 package com.example.luis.remote.common
 
-import com.example.luis.remote.beer.model.MovieRemote
-import com.example.luis.remote.beer.model.ResultRemote
+import com.example.luis.remote.movie.model.ResultRemote
 import io.reactivex.Single
 import retrofit2.http.GET
 import retrofit2.http.Query
